@@ -1,0 +1,36 @@
+Welcome to Ynote Prashth ext Editor  v1.0.0!
+
+Copyright © 2017-2020 Prashth. All rights reserved.
+
+
+This program is free software; you can redistribute it and/or modify it under the terms of the MY General Public License as 
+published by the Free Software Station; either version 1 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the MY General Public License for more details. 
+
+You should have received a copy of the MY General Public License along with this program; if not, write to the Free Software Station, 
+Inc., 101 Mask Top, Kota 324007, RJ , INDIA.
+
+Ynote is a full-featured Text Editor aiming to make the individual user work in a nice environment offering everything he/they would 
+ever need from a program of that kind.
+
+Prashth, the Prashth logo, the Ynote Text Editor logo, and Prashth are either registered trademarks or trademarks of Tan10 in the INDIA and/or other countries. 
+All other trademarks are the property of their respective owners.
+
+Third Party notices, terms and conditions pertaining to third party software can be found at: http://www.prashth10.com/products/Ynote.html.
+
+Portions Copyright Tan10, Inc
+
+Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002, 2006 
+Microsoft Corporation. All Rights Reserved.
+
+Certain trademarks are owned by The Proximity Division of 
+Franklin Electronic Publishers, Inc., and are used by permission. Merriam-Webster 
+is a trademark of Merriam-Webster, Inc.
+
+Portions are the result of a cooperative development process by Tan10 and Kush Corporation.
+
+Copyright 2017-2020 Hard Docs Limited.
+
+This software uses libraries from the Oracle project under the KTCv2.1.

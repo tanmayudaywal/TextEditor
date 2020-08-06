@@ -1,0 +1,23 @@
+/*
+ * Empty Stylesheet file.
+ * @author Tanmay Udaival
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #333333;
+    
+
+}
+#buttonID{
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+#buttonID:hover{
+    -fx-background-color: #cacbe1;
+    -fx-text-fill: black;
+}
+#background{
+    -fx-background-color: #333333;
+}
