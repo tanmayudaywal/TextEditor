@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Text Editor.jnlp">
+  <information>
+    <title>Text Editor</title>
+    <vendor>Khushi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/google-api-spelling-java-1.1.jar" size="12397" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="text.editor.TextEditor"  name="Text Editor" />
+  <update check="always"/>
+</jnlp>
