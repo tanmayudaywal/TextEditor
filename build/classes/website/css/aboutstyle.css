@@ -1,0 +1,30 @@
+body{
+    background: rgba(255, 255, 255, 0.418);
+    margin: 0;
+    color: rgb(51, 182, 154);
+    border-bottom: rgb(34, 34, 34);
+    text-align-last: center;
+}
+
+
+nav h4{
+    margin: 0;
+}
+
+nav ul{
+    margin: 0px;
+    display: inline;
+}
+
+nav ul li{
+    background: rgb(62, 110, 119);
+    color: #fff;
+    display: inline-block;
+    list-style-type: none;
+    padding: 8;
+}
+
+nav ul li a{
+    color: white;
+
+}
