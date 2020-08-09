@@ -27,6 +27,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.geometry.Pos;
 import javafx.scene.Cursor;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -201,7 +202,7 @@ public class FXMLDocumentController implements Initializable {
     //this part can be modified
     
     @FXML
-    public void handleClearButtonAction(ActionEvent event){
+    public void handleClearButtonAction(ActionEvent event) throws InterruptedException{
         System.out.println("You clicked Clear Button!");
         finalTextAreaFXID.clear();
         finallabelFXID.setText("New File");
@@ -261,12 +262,30 @@ public class FXMLDocumentController implements Initializable {
         //clear tabbed pane and set what u want here
         //you can you use any nodes, controls, graph etc code your own
         finalRootTextAreaContainerHBoxFXID.getChildren().clear();
-        Rectangle rectangle = new Rectangle(1400, 630, Color.CORNFLOWERBLUE);//(width, height, color) chnage width, height
+        ColorPicker colorPicker = new ColorPicker();
+//        colorPicker.getRotate();
+        VBox vBox = new VBox(5);//double value for spacing b/w two nodes
+        finalRootTextAreaContainerHBoxFXID.getChildren().add(vBox);
+        vBox.getChildren().add(colorPicker);
+        vBox.setAlignment(Pos.TOP_LEFT);
+        vBox.getParent();
+       
+        
+        Rectangle rectangle = new Rectangle(1250, 630,Color.WHITE);//(width, height, color) chnage width, height
+        rectangle.setCursor(Cursor.HAND);
+        
+        colorPicker.setOnAction((ActionEvent t) -> {
+            Color newColor = colorPicker.getValue();
+            rectangle.setCursor(Cursor.HAND);
+            rectangle.setFill(newColor);
+         });
+        
+        
         rectangle.setStrokeDashOffset(12);      
         rectangle.setStrokeLineCap(StrokeLineCap.ROUND);
         rectangle.setStrokeType(StrokeType.CENTERED);
         finalRootTextAreaContainerHBoxFXID.getChildren().add(rectangle);
-         
+//         
     }
     
     
