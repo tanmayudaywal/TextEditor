@@ -166,8 +166,14 @@
                   <Label fx:id="finallabelFXID" text="New File" />
                </children>
             </HBox>
-            <HBox alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="503.0">
+            <HBox alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="865.0">
                <children>
+                  <TextField fx:id="matchstring" focusTraversable="false" promptText="Match Text" />
+                  <Button focusTraversable="false" mnemonicParsing="false" onAction="#matchTextMethod" text="Match">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </Button>
                   <Button fx:id="finalCalcButtonFXID" focusTraversable="false" mnemonicParsing="false" onAction="#handleCalculator" text="Calc">
                      <HBox.margin>
                         <Insets />
@@ -233,9 +239,9 @@
                         <Insets left="2.0" right="2.0" />
                      </VBox.margin>
                      <tabs>
-                        <Tab fx:id="finaltab" text="New File">
+                        <Tab fx:id="finaltab" style="-fx-background-color: #000000;" text="New File">
                            <content>
-                              <TextArea fx:id="finalTextAreaFXID" depthTest="DISABLE" onKeyPressed="#handleTextAreaEvents" prefHeight="800.0" prefWidth="1500.0">
+                              <TextArea fx:id="finalTextAreaFXID" depthTest="DISABLE" onKeyPressed="#handleTextAreaEvents" prefHeight="800.0" prefWidth="1500.0" style="-fx-background-color: #000000;">
                                  <cursor>
                                     <Cursor fx:constant="TEXT" />
                                  </cursor>

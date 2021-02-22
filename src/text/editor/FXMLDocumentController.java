@@ -191,6 +191,8 @@ public class FXMLDocumentController implements Initializable {
     private Tab finaltab;
     @FXML 
     private TabPane finaltabpane;
+    @FXML
+    private TextField matchstring;
     
      
     /****************Declaration End**************************/
@@ -204,7 +206,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     public void handleClearButtonAction(ActionEvent event) throws InterruptedException{
         System.out.println("You clicked Clear Button!");
-        finalTextAreaFXID.clear();
+        finalTextAreaFXID.setText(String.valueOf(IOException.class));  //.clear()
         finallabelFXID.setText("New File");
         finalStatusTfFXID.setText("Status");
         finalLengthTfFXID.setText("0");
@@ -248,6 +250,7 @@ public class FXMLDocumentController implements Initializable {
     public void handleDeleteAllTabButtonAction(ActionEvent event) throws java.lang.ArrayIndexOutOfBoundsException{
          System.out.println("You clicked delete button Button!");
          finaltabpane.getTabs().clear();
+         finalStatusTfFXID.setText(emptyString);
          tab_number = 1;
              ac=1;
 //            for (int i = 0; i <600; i+=2)
@@ -566,6 +569,11 @@ public class FXMLDocumentController implements Initializable {
             case "Comic Sans MS":
                 finalTextAreaFXID.setFont(Font.font("Comic Sans MS",Double.valueOf(finalTextSizeComboBoxFXID.getValue())));
                 break;
+//            case "":
+//                finalTextAreaFXID.setFont(Font.font(), Double.valueOf(finalTextSizeComboBoxFXID.getValue())));
+//                
+
+
                 //this is not end yet, more font to apply case and continue
             default:
                 finalTextAreaFXID.setFont(Font.font("Syatem",Double.valueOf(finalTextSizeComboBoxFXID.getValue())));
@@ -1252,7 +1260,8 @@ public class FXMLDocumentController implements Initializable {
      
     //current date on Text Field
     public void currentDateOnDateTextField() throws RuntimeException{
-        Thread currentDateThread = new Thread(){
+        Thread currentDateThread;
+        currentDateThread = new Thread(){
             @Override
             public void run(){
                 for(;;){
@@ -1264,7 +1273,7 @@ public class FXMLDocumentController implements Initializable {
                         sleep(1000);
                     } 
                     catch (InterruptedException ex) {
-                         //...
+                        //...
                     }
                     
                 }
@@ -1349,6 +1358,23 @@ public class FXMLDocumentController implements Initializable {
 
         
     }
+    
+    @FXML
+    public void matchTextMethod(ActionEvent event) {
+        int i = 1;
+        String m = matchstring.getText();
+//        String buffer = finalTextAreaFXID.getText();
+        if(finalTextAreaFXID.getText().matches(m))
+        {
+            int indexOf = finalTextAreaFXID.getText().indexOf(m,i);
+            System.out.println("String match");
+        }
+        else{
+            System.out.println("String!! no match");
+        }
+        i++;
+    }
+    
     
     //caller fuction to textArea
     public void currentLengthOfText() throws RuntimeException{
@@ -1616,6 +1642,6 @@ public class FXMLDocumentController implements Initializable {
         Text t = new Text(finalTextAreaFXID.getText());
         t.setFill(Color.BLUE);
     }    
-    
+   
 }
 ////
