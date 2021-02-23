@@ -882,7 +882,7 @@ public class FXMLDocumentController implements Initializable {
     public void helpStageShow(ActionEvent event) throws RuntimeException{
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource(helpFXML));
+            fxmlLoader.setLocation(getClass().getResource("/fxml/helpFXML"));
             Scene helpScene = new Scene(fxmlLoader.load(), 600, 400);
             Stage helpStage = new Stage();
 
@@ -919,7 +919,7 @@ public class FXMLDocumentController implements Initializable {
     public void handleCalculator(ActionEvent event) throws Exception{
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource(calculatorFXML));
+            fxmlLoader.setLocation(getClass().getResource("/fxml/calculatorFXML"));
             Scene calculatorScene = new Scene(fxmlLoader.load(), 420, 390);
             Stage calculatorStage = new Stage();
 
@@ -948,7 +948,7 @@ public class FXMLDocumentController implements Initializable {
     public void handleSettingButtonAction(ActionEvent event) throws RuntimeException{
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource(settingFXML));
+            fxmlLoader.setLocation(getClass().getResource("/fxml/settingFXML"));
             /* 
              * if "fx:controller" is not set in fxml
              * fxmlLoader.setController(NewWindowController);

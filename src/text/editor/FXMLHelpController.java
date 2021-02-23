@@ -85,7 +85,7 @@ public class FXMLHelpController implements Initializable {
 
     @FXML
     public void webOnMouseExited(MouseEvent event) {
-        webLabelFXID.setTextFill(Color.AQUA);
+        webLabelFXID.setTextFill(new Color(22, 96, 174, 1.0));
     }
 
     @FXML

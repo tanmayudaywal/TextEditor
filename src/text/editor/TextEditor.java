@@ -37,13 +37,14 @@ public class TextEditor extends Application   {
         });
         
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/fxml/FXMLDocument.fxml"));
         
             Scene scene = new Scene(root);
     //        Image image = new Image("batman.png");  //pass in the image path
 //            scene.setCursor(new ImageCursor(image));
-            stage.getIcons().add(new Image("/iimg/tan_file.png"));
-            stage.setTitle("Note10");
+            stage.getIcons().add(new Image("/iimg/delta.png"));
+            stage.setTitle("Delta Editor 10.0.01");
+           
             stage.setScene(scene);
             stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("ctrl+w"));
             stage.setResizable(true);                                               //stage.initStyle(StageStyle.UNDECORATED);//hidden minimize maximize
