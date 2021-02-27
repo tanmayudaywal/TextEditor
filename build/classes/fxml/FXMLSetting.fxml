@@ -240,12 +240,12 @@
                   </HBox>
                   <HBox alignment="CENTER_RIGHT" prefHeight="62.0" prefWidth="356.0">
                      <children>
-                        <Button fx:id="settingOkButtonFXID" mnemonicParsing="false" onAction="#settingOkButtonAction" prefHeight="20.0" prefWidth="70.0" stylesheets="@../../design/document.css" text="OK">
+                        <Button fx:id="settingOkButtonFXID" mnemonicParsing="false" onAction="#settingOkButtonAction" prefHeight="20.0" prefWidth="70.0" stylesheets="@../design/document.css" text="OK">
                            <HBox.margin>
                               <Insets right="20.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="settingCancelButtonFXID" mnemonicParsing="false" onAction="#settingCancelButtonAction" prefHeight="20.0" prefWidth="70.0" stylesheets="@../../design/document.css" text="Cancel">
+                        <Button fx:id="settingCancelButtonFXID" mnemonicParsing="false" onAction="#settingCancelButtonAction" prefHeight="20.0" prefWidth="70.0" stylesheets="@../design/document.css" text="Cancel">
                            <HBox.margin>
                               <Insets right="20.0" />
                            </HBox.margin>

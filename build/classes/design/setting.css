@@ -1,0 +1,21 @@
+/*** @author Tanmay Udaival***/
+
+.jfx-settingAnchorPaneFXID{
+    -fx-border-color: #333333;
+}
+.jfx-settingCloseeButtonFXID{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+.jfx-settingCloseeButtonFXID:hover{
+    -fx-background-color: #ff3366;
+    -fx-text-fill: white;
+}
+
+.jfx-settingOkButtonFXID:hover{
+    -fx-background-color: #ccccff;
+    
+}
+.jfx-settingCancelButtonFXID:hover{
+    -fx-background-color: #ffcccc;
+}

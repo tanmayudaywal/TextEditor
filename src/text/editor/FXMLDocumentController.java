@@ -217,7 +217,7 @@ public class FXMLDocumentController implements Initializable {
         
     }
     
-    int tab_number=1;
+    static int tab_number=1;
     
     
     int ac = 0;//it can be use boolean 

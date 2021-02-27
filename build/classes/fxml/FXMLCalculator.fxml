@@ -15,7 +15,7 @@
    <children>
       <VBox prefHeight="396.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button id="buttonCLoseID" fx:id="calcCloseButtonFXID" mnemonicParsing="false" onAction="#calculatorClose" stylesheets="@../../design/calculator.css" text="X">
+            <Button id="buttonCLoseID" fx:id="calcCloseButtonFXID" mnemonicParsing="false" onAction="#calculatorClose" stylesheets="@../design/calculator.css" text="X">
                <VBox.margin>
                   <Insets left="5.0" right="5.0" top="5.0" />
                </VBox.margin>
@@ -27,37 +27,37 @@
             </TextArea>
             <HBox prefHeight="56.0" prefWidth="600.0">
                <children>
-                  <Button id="buttonNumberID" fx:id="seven" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="7">
+                  <Button id="buttonNumberID" fx:id="seven" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="7">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button id="buttonNumberID" fx:id="eight" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="8">
+                  <Button id="buttonNumberID" fx:id="eight" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="8">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button id="buttonNumberID" fx:id="nine" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="9">
+                  <Button id="buttonNumberID" fx:id="nine" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="9">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="divide" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="/">
+                  <Button fx:id="divide" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="/">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="multiplication" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="*">
+                  <Button fx:id="multiplication" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="*">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="negativePositive" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="+/-">
+                  <Button fx:id="negativePositive" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="+/-">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="clr" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" onAction="#calculatorClear" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="Clr">
+                  <Button fx:id="clr" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" onAction="#calculatorClear" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="Clr">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
@@ -66,37 +66,37 @@
             </HBox>
             <HBox layoutX="10.0" layoutY="141.0" prefHeight="56.0" prefWidth="600.0">
                <children>
-                  <Button id="buttonNumberID" fx:id="four" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="4">
+                  <Button id="buttonNumberID" fx:id="four" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="4">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button id="buttonNumberID" fx:id="five" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="5">
+                  <Button id="buttonNumberID" fx:id="five" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="5">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button id="buttonNumberID" fx:id="six" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="6">
+                  <Button id="buttonNumberID" fx:id="six" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="6">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="positive" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="+">
+                  <Button fx:id="positive" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="+">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="percentage" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="\%">
+                  <Button fx:id="percentage" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="\%">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="log" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="log">
+                  <Button fx:id="log" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="log">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="ln" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="ln">
+                  <Button fx:id="ln" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="ln">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
@@ -105,37 +105,37 @@
             </HBox>
             <HBox layoutX="10.0" layoutY="168.0" prefHeight="60.0" prefWidth="600.0">
                <children>
-                  <Button id="buttonNumberID" fx:id="one" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="1">
+                  <Button id="buttonNumberID" fx:id="one" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="1">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button id="buttonNumberID" fx:id="two" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="2">
+                  <Button id="buttonNumberID" fx:id="two" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="2">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button id="buttonNumberID" fx:id="three" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="3">
+                  <Button id="buttonNumberID" fx:id="three" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="3">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="minus" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="-">
+                  <Button fx:id="minus" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="-">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="power" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="^">
+                  <Button fx:id="power" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="^">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="modulo" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="mod">
+                  <Button fx:id="modulo" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="mod">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="factorial" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="x!">
+                  <Button fx:id="factorial" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="x!">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
@@ -144,44 +144,44 @@
             </HBox>
             <HBox layoutX="10.0" layoutY="253.0" prefHeight="60.0" prefWidth="600.0">
                <children>
-                  <Button id="buttonNumberID" fx:id="zero" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="0">
+                  <Button id="buttonNumberID" fx:id="zero" alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="0">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="openParenth" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="(">
+                  <Button fx:id="openParenth" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="(">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="closeParenth" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text=")">
+                  <Button fx:id="closeParenth" alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text=")">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="equalTo" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="=">
+                  <Button fx:id="equalTo" alignment="CENTER" focusTraversable="false" layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="=">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="inverse" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="1/x">
+                  <Button fx:id="inverse" alignment="CENTER" focusTraversable="false" layoutX="201.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="1/x">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="sqrt" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="sqrt">
+                  <Button fx:id="sqrt" alignment="CENTER" focusTraversable="false" layoutX="255.0" layoutY="20.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="sqrt">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="mod" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../../design/document.css" text="|x|">
+                  <Button fx:id="mod" alignment="CENTER" focusTraversable="false" layoutX="310.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" stylesheets="@../design/document.css" text="|x|">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
                </children>
             </HBox>
-            <Button fx:id="calcGetButtonFXID" mnemonicParsing="false" prefWidth="1000.0" stylesheets="@../../design/document.css" text="Get" />
+            <Button fx:id="calcGetButtonFXID" mnemonicParsing="false" prefWidth="1000.0" stylesheets="@../design/document.css" text="Get" />
          </children>
       </VBox>
    </children>
